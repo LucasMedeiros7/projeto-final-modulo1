@@ -13,8 +13,8 @@ body {
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
- 
-.box{
+
+.box {
   color: lightgrey;
   background-color: #BA68C8;
   border: 1px solid #ddd;
@@ -23,14 +23,14 @@ body {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
-.opcoes{
+.opcoes {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   width: 700px;
 }
 
-.option{
+.option {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   padding-top: 20px;
   width: 33%;
@@ -42,7 +42,7 @@ body {
   cursor: pointer;
 }
 
-.option:hover{
+.option:hover {
   color: white;
   background-color: #BA68C8;
   transform: scale(1.2);
@@ -69,4 +69,12 @@ button:hover {
 
 strong {
   color: red;
+}
+
+.exemplo{
+  text-align: center;
+  padding: 11px;
+  margin: 0px 120px;
+  border: 1px solid #BA68C8;
+  background-color: #ddd;
 }
