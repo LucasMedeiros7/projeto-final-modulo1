@@ -16,7 +16,6 @@ function pergunta1() {
     }
     else {
       alert(`Opção inválida`);
-      break
     }
   }
 }
@@ -37,7 +36,6 @@ function pergunta2() {
     }
     else {
       alert(`Opção inválida`);
-      break
     }
   }
 }
@@ -59,7 +57,6 @@ function pergunta3() {
     }
     else {
       alert(`Opção inválida`);
-      break
     }
   }
 }
