@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'roboto', Courier, monospace;
+}
+
+.container1 {
+  text-align: center;
+  padding: 25px;
+  margin: 30px 50px;
+  border-bottom: 1px solid black;
+}
+
+.title {
+  margin: 0 300px;
+  color: #fff;
+  background-color: #2965F1;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  border: none;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.container2 {
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.conteudo {
+  width: 40%;
+}
+
+h2 {
+  width: 133px;
+  font-size: 50px;
+  font-weight: 600;
+  color: black;
+  margin-bottom: 24px;
+  box-sizing: content-box;
+  border-bottom: 1px solid black;
+}
+
+p {
+  font-size: 20px;
+  margin-bottom: 3%;
+}
+
+a {
+  text-decoration: none;
+  color: #2965F1;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+button {
+  font-size: 18px;
+  width: 300px;
+  height: 40px;
+  margin-top: 60px;
+  border-radius: 10px;
+  background-color: #2965F1;
+  color: #ddd;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+
+button:hover {
+  transform: scale(0.88);
+  background-color: #fff;
+  color: black;
+}
+
+figure {
+  width: 40%;
+  padding-left: 50px;
+}
+
+.icon-css {
+  width: 580px;
+  height: 580px;
+}
+
+footer {
+  padding-top: 25px;
+  text-align: center;
+  border-top: 1px solid black;
+  background-color: #ddd;
+  height: 10vh;
+}
