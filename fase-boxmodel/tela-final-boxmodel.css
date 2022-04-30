@@ -18,8 +18,8 @@ body {
 }
 
 .box {
-  color: lightgrey;
-  background-color: #BA68C8;
+  color: black;
+  background-color: #92E3A9;
   border: 1px solid #ddd;
   border-radius: 10px;
   margin-bottom: 80px;
@@ -34,8 +34,8 @@ button {
   height: 60px;
   margin-top: 40px;
   border-radius: 10px;
-  background-color: #BA68C8;
-  color: #ddd;
+  background-color: #92E3A9;
+  color: black;
   cursor: pointer;
   transition: 0.4s;
 }
@@ -50,5 +50,3 @@ button:hover {
   width: 560px;
   height: 370px;
 }
-
-
