@@ -31,12 +31,12 @@ h1 {
   display: flex;
   justify-content: space-around;
   margin-top: 5%;
-  height: 70vh;
+  height: 60vh;
 }
 
 img {
-  width: 420px;
-  height: 420px;
+  width: 320px;
+  height: 320px;
 }
 
 .seletores {
@@ -82,7 +82,9 @@ footer {
   color: black;
   padding: 1rem;
   height: max-content;
-  max-height: 100%;
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
 }
 
 a{
