@@ -8,13 +8,14 @@
 
 body {
   font-family: 'roboto', Courier, monospace;
+  background-color: black;
 }
 
 .container1 {
   text-align: center;
   padding: 25px;
   margin: 30px 50px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #ddd;
 }
 
 .title {
@@ -39,6 +40,15 @@ body {
 }
 
 .conteudo {
+  height: 480px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 2%;
+  background-color: #ddd;
   width: 40%;
 }
 
@@ -54,7 +64,6 @@ h2 {
 
 p {
   font-size: 20px;
-  margin-bottom: 3%;
 }
 
 a {
