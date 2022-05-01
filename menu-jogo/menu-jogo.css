@@ -6,9 +6,10 @@
   box-sizing: border-box;
 }
 
-body{
+body {
   font-family: 'roboto', Courier, monospace;
 }
+
 .top-box {
   text-align: center;
   padding: 25px;
@@ -87,14 +88,14 @@ footer {
   bottom: 0px;
 }
 
-a{
+a {
   width: min-content;
   text-decoration: none;
 }
 
-@media (max-height:720px) {
-  footer{
+@media (max-height:799px) {
+  footer {
     display: none;
   }
-  
+
 }
