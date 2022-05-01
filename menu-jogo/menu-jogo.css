@@ -91,3 +91,10 @@ a{
   width: min-content;
   text-decoration: none;
 }
+
+@media (max-height:720px) {
+  footer{
+    display: none;
+  }
+  
+}
