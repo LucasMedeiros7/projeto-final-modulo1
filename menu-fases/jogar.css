@@ -29,6 +29,7 @@ body {
 }
 
 .main-container {
+  text-align: center;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -39,7 +40,6 @@ body {
 
 .main-container h2 {
   font-size: 18px;
-  text-align: center;
   margin: 31px 0 25px 0;
 }
 
@@ -47,14 +47,13 @@ body {
   width: 357px;
   height: 54px;
   font-size: 12px;
-  text-align: center;
   margin-bottom: 25px;
 }
 
 .main-container a {
   text-decoration: none;
-  display: flex;
-  justify-content: center;
+  width: 155px;
+  height: 34px;
 }
 
 .btn {
@@ -66,6 +65,15 @@ body {
   font-family: 'Press Start 2P', sans-serif;
   transition: 0.4s;
 }
+
+#btn-sel{
+  background-color: #BA68C8 ;
+}
+
+#btn-box{
+  background-color: #92E3A9 ;
+}
+
 
 .btn:hover {
   transform: scale(0.95);
