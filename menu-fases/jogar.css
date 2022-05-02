@@ -13,9 +13,7 @@ body {
 }
 
 .header-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  text-align: center;
   max-width: 1098px;
   max-height: 82px;
   width: 95%;
@@ -25,64 +23,38 @@ body {
   box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.25);
 }
 
-.header-container .logo {
+.header-container h1 {
+  font-size: 20px;
   padding: 1rem 0 1rem 3.125rem;
-}
-
-.header-container .menu {
-  display: flex;
-  padding: 2.125rem 3.125rem 2.125rem 0;
-  gap: 2.063rem;
-  font-size: 15px;
-  list-style: none;
-}
-
-.menu a {
-  color: #000000;
-  text-decoration: none;
-  transition: 0.3s;
-}
-
-.menu a:hover {
-  color: #2965F1;
 }
 
 .main-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   max-height: 765px;
   height: 90%;
+  padding: 1rem 10.688rem;
 }
 
-.main-container .sobre {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+.main-container h2 {
+  font-size: 18px;
   text-align: center;
-  max-width: 586px;
-  max-height: 380px;
-  height: 90%;
-  width: 90%;
-  border: 1px solid #000000;
-  border-radius: 13px;
-  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.25);
+  margin: 31px 0 25px 0;
+}
+
+.main-container p {
+  width: 357px;
+  height: 54px;
+  font-size: 12px;
+  text-align: center;
   margin-bottom: 25px;
-  padding: 2.5rem 5rem 1.938rem 4.938rem;
 }
 
-.sobre h2 {
-  font-size: 20px;
-}
-
-.sobre p {
-  font-size: 10px;
-}
-
-p a{
+.main-container a {
   text-decoration: none;
-  color: #2965F1;
+  display: flex;
+  justify-content: center;
 }
 
 .btn {
@@ -101,7 +73,7 @@ p a{
 }
 
 footer {
-  padding: 1.563rem 0 ;
+  padding: 1.563rem 0;
   border-top: 1px solid #000000;
   text-align: center;
   max-height: 65px;
@@ -112,7 +84,7 @@ h3 {
   font-size: 10px;
 }
 
-h3 a{
+h3 a {
   text-decoration: none;
   color: #2965F1;
 }
