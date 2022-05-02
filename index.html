@@ -1,42 +1,40 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CSS3 Quiz Game</title>
+  <title>CSS3 - Quiz Game</title>
   <link rel="stylesheet" href="style.css">
-  <link rel="shortcut icon" href="./assets/icon-css3.svg" type="image/x-icon">
 </head>
 
 <body>
-  <header class="container1">
-    <h1 class="title">CSS3 - Quiz Game</h1>
+  <header class="header-container">
+    <img class="logo" src="./imagens/icon-css.svg" alt="Icone css">
+      <ul class="menu">
+        <a href="./menu-jogo/menu-jogo.html" target="_blank">
+          <li>Jogar</li>
+        </a>
+        <a href="#">
+          <li>Sobre</li>
+        </a>
+        <a href="https://github.com/lucasmedeiros7" target="_blank">
+          <li>Contato</li>
+        </a>
+      </ul>
   </header>
-  <main class="container2">
-    <aside class="conteudo">
+  <main class="main-container">
+    <div class="sobre">
       <h2>Sobre</h2>
       <p>Um quiz feito com o intuito de reforçar seus aprendizados de CSS.</p>
-      <p>Neste jogo você vai passar por perguntas sobre conceitos especificos dentro do css.<br>Onde você vence se
-        acertar todas as perguntas durante o quiz.</p>
-      <p>Caso esteja muito dificil retorne aos estudos e reforce os conceitos visitando a <a
-          href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target="_blank">documentação oficial</a></p>
-
-      <h3>Está pronto para provar que você ta sabendo tudo de CSS3?</h3>
-
-      <a href="./menu-jogo/menu-jogo.html"><button>Jogar</button></a>
-    </aside>
-
-    <figure class="logo-css">
-      <img class="icon-css" src="./assets/icon-css3.svg" alt="">
-    </figure>
-  </main>
-
-  <footer>
-    <div class="copy">Criado para fins didáticos - Resilia 2022 - Criado por
-      <a href='https://github.com/lucasmedeiros7' target="_blank">Lucas Medeiros</a>
+      <p>Neste jogo você vai passar por perguntas sobre conceitos especificos dentro do css.
+      Onde você vence se acertar todas as perguntas durante o quiz.</p>
+      <p>Caso esteja muito dificil retorne aos estudos e reforce os conceitos visitando a <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS">documentação oficial.</a></p>
+      <a href="./menu-jogo/menu-jogo.html"><button class="btn">Jogar</button></a>
     </div>
+  </main>
+  <footer>
+    <h3>Criado para fins didáticos - Resilia 2022 - Criado por <a href="https://github.com/lucasmedeiros7" target="_blank">Lucas Medeiros</a></h3>
   </footer>
 </body>
 
