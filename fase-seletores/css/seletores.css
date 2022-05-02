@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto&display=swap');
+
+:root {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: 'Press Start 2P', 'Roboto', sans-serif, Courier, monospace;
+  height: 100vh;
+  padding-top: 8rem;
+}
+
+.header-container {
+  background-color: #BA68C8;
+  text-align: center;
+  max-width: 1098px;
+  max-height: 82px;
+  width: 95%;
+  margin: 0 auto;
+  border: 1px solid #000000;
+  border-radius: 13px;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.25);
+}
+
+.header-container h1 {
+  font-size: 20px;
+  padding: 1rem 0 1rem 3.125rem;
+}
+
+.pergunta,
+.parabens,
+.gameover {
+  text-align: center;
+  line-height: -2.5rem;
+  max-width: 579px;
+  max-height: 52px;
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 7.3rem;
+}
+
+.pergunta strong {
+  color: #BA68C8;
+}
+
+.exemplo {
+  padding: 2.0rem;
+  border: 1px solid #000000;
+  color: #BA68C8;
+  margin-top: 4.0rem;
+}
+
+.main-container,
+.img-parabens,
+.img-gameover {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 730px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8.1rem;
+}
+
+.img-parabens {
+  padding-left: 9rem;
+}
+
+.img-gameover {
+  padding-left: 14rem;
+}
+
+
+.option {
+  background-color: #BA68C8;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding-top: 20px;
+  width: 33%;
+  margin: 50px;
+  height: 50px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  transition: 0.5s;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.div-button {
+  display: flex;
+  justify-content: center;
+  width: 730px;
+  margin-top: 5.5rem;
+  margin-right: auto;
+  margin-bottom: 1.0rem;
+  margin-left: auto;
+}
+
+.div-button a {
+  text-decoration: none;
+  width: 155px;
+  height: 34px;
+}
+
+.btn {
+  background-color: #BA68C8;
+  width: 31.9rem;
+  height: 5.7rem;
+  box-shadow: 5px 5px 0px #000000;
+  cursor: pointer;
+  font-family: 'Press Start 2P', sans-serif;
+  transition: 0.4s;
+  margin-left: 14rem;
+}
+
+.div-button {
+  padding-right: 15rem;
+}
+
+.btn-win {
+  background-color: #BA68C8;
+  width: 31.9rem;
+  height: 5.7rem;
+  box-shadow: 5px 5px 0px #000000;
+  cursor: pointer;
+  font-family: 'Press Start 2P', sans-serif;
+  transition: 0.4s;
+}
+
+.btn-win:hover {
+  transform: scale(0.95);
+  box-shadow: none;
+}
+
+.btn:hover {
+  transform: scale(0.95);
+  box-shadow: none;
+}

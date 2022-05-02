@@ -7,6 +7,7 @@
 }
 
 body {
+  overflow-x: hidden;
   font-family: 'Press Start 2P', 'Roboto', sans-serif, Courier, monospace;
   height: 100vh;
   padding-top: 2.188rem;

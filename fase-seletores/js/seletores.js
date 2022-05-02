@@ -7,7 +7,7 @@ function pergunta1() {
     resposta = prompt("Em CSS, como você selecionaria todas as tags <p> em uma página? \n \n 1 - p {} \n 2 - #p{} \n 3 - <p> {} \n 4 - .p{}");
 
     if (resposta == 1) {
-      window.location.href = './pergunta-sel-2.html'
+      window.location.href = './seletores2.html'
       break;
     }
     else if (resposta == 3 || resposta == 2 || resposta == 4) {
@@ -27,7 +27,7 @@ function pergunta2() {
     resposta = prompt("Em CSS, como você selecionaria essa imagem usando seu id? \n \n 1 - .seleciona {} \n 2 - #seleciona {} \n 3 - img {} \n 4 - seleciona {}");
 
     if (resposta == 2) {
-      window.location.href = './pergunta-sel-3.html'
+      window.location.href = './seletores3.html'
       break;
     }
     else if (resposta == 1 || resposta == 3 || resposta == 4) {
