@@ -52,8 +52,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-height: 765px;
-  height: 90%;
+  min-height: calc(100vh - 182px);
 }
 
 .main-container .sobre {
@@ -62,9 +61,8 @@ body {
   justify-content: space-between;
   align-items: center;
   text-align: center;
+  height: 23rem;
   max-width: 586px;
-  max-height: 380px;
-  height: 90%;
   width: 90%;
   border: 1px solid #000000;
   border-radius: 13px;
@@ -81,7 +79,7 @@ body {
   font-size: 10px;
 }
 
-p a{
+p a {
   text-decoration: none;
   color: #2965F1;
 }
@@ -102,7 +100,7 @@ p a{
 }
 
 footer {
-  padding: 1.563rem 0 ;
+  padding: 1.563rem 0;
   border-top: 1px solid #000000;
   text-align: center;
   max-height: 65px;
@@ -113,7 +111,39 @@ h3 {
   font-size: 10px;
 }
 
-h3 a{
+h3 a {
   text-decoration: none;
   color: #2965F1;
+}
+
+@media screen and (max-width: 730px) {
+  .header-container {
+    justify-content: center;
+  }
+
+  .header-container .logo {
+    display: none;
+  }
+
+  .header-container .menu {
+    padding: 2.125rem 0;
+  }
+
+  .main-container .sobre {
+    padding: 1rem;
+    height: max-content;
+  }
+
+  .sobre h2 {
+    margin-bottom: 1rem;
+  }
+
+  .sobre p {
+    margin-bottom: 1rem;
+  }
+
+  h3 {
+    font-size: 0.7rem;
+  }
+
 }

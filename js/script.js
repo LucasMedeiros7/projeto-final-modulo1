@@ -8,9 +8,11 @@ function responder(certo, proxWin, proxLose) {
 
     if (resposta == certo) {
       window.location.href = proxWin
+      break
     }
     else if (resposta == 1 || resposta == 2 || resposta == 3 || resposta == 4) {
       window.location.href = proxLose
+      break
     }
     else {
       alert(`Opção inválida`);

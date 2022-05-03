@@ -13,7 +13,7 @@
 body {
   overflow-x: hidden;
   font-family: 'Press Start 2P', 'Roboto', sans-serif, Courier, monospace;
-  height: 100vh;
+  min-height: 100vh;
   padding-top: 8rem;
 }
 
@@ -121,9 +121,9 @@ b {
   display: flex;
   justify-content: center;
   width: 730px;
-  margin-top: 5.5rem;
+  margin-top: 5rem;
   margin-right: auto;
-  margin-bottom: 1.0rem;
+  margin-bottom: 4.0rem;
   margin-left: auto;
 }
 
@@ -167,4 +167,77 @@ b {
 .btn-home:hover {
   transform: scale(0.95);
   box-shadow: none;
+}
+
+@media screen and (max-width: 650px) {
+
+
+  .header-container h1 {
+    padding: 1rem 0;
+  }
+
+  .pergunta h2 {
+    margin-bottom: 2.5rem;
+  }
+
+  .main-container,
+  .img-parabens,
+  .img-gameover {
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0rem 1rem;
+    max-width: 400px;
+    width: 100%;
+  }
+
+  .option {
+    width: 90%;
+    max-width: max-content;
+    margin: 2rem 0;
+  }
+
+  .div-button {
+    display: block;
+    margin: 0 auto;
+    padding: 0rem 1rem;
+    max-width: 400px;
+    width: 100%;
+  }
+
+  .btn {
+    margin: auto;
+    margin-left: 2.5rem;
+    margin-top: 2.5rem;
+  }
+
+  .btn-home {
+    margin: auto;
+    margin-left: 2.5rem;
+    margin-top: 2.5rem;
+  }
+
+  .perguntaExemplo {
+    display: block;
+    margin-bottom: 2.5rem;
+  }
+
+  .exemploCode {
+    width: 360px;
+  }
+
+  #exemploSel{
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0rem 1rem;
+    max-width: 400px;
+    width: 100%;
+  }
+
+  .larguraEx {
+    max-width: 340px;
+    width: 100%;
+  }
+
 }

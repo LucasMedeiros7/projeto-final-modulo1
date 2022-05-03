@@ -33,9 +33,13 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-height: 765px;
-  height: 90%;
+  flex-wrap: wrap;
+  min-height: calc(100vh - 183px);
   padding: 1rem 10.688rem;
+}
+
+.main-container div{
+  margin-top: 2.5rem;
 }
 
 .main-container h2 {
@@ -66,12 +70,12 @@ body {
   transition: 0.4s;
 }
 
-#btn-sel{
-  background-color: #BA68C8 ;
+#btn-sel {
+  background-color: #BA68C8;
 }
 
-#btn-box{
-  background-color: #92E3A9 ;
+#btn-box {
+  background-color: #92E3A9;
 }
 
 
@@ -95,4 +99,31 @@ h3 {
 h3 a {
   text-decoration: none;
   color: #2965F1;
+}
+
+@media screen and (max-width: 730px) {
+
+  .header-container h1 {
+    padding: 1rem 0;
+  }
+
+  .main-container {
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    margin: auto;
+  }
+
+  .flexbox,
+  .boxmodel,
+  .seletores {
+    padding: 1rem;
+    margin: auto 0; 
+  }
+
+  footer {
+    display: none;
+  }
+
 }
