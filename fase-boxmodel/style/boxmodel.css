@@ -18,7 +18,7 @@ body {
 }
 
 .header-container {
-  background-color: #407BFF;
+  background-color: #92E3A9;
   text-align: center;
   max-width: 1098px;
   max-height: 82px;
@@ -46,14 +46,15 @@ body {
   margin-top: 7.3rem;
 }
 
-.pergunta strong, b {
-  color: #407BFF;
+.pergunta strong,
+b {
+  color: #92E3A9;
 }
 
 .exemplo {
   padding: 2.0rem;
   border: 1px solid #000000;
-  color: #407BFF;
+  color: #92E3A9;
   margin-top: 4.0rem;
 }
 
@@ -69,8 +70,27 @@ body {
   margin-top: 8.1rem;
 }
 
+.perguntaExemplo {
+  text-align: center;
+  margin-top: 4.5rem;
+}
+
+.exemploCode {
+  padding: 2rem;
+}
+
+.main-container-exemplo {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 730px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.5rem;
+}
+
 .img-parabens {
-  padding-left: 14rem;
+  padding-left: 16rem;
 }
 
 .img-gameover {
@@ -79,7 +99,7 @@ body {
 
 
 .option {
-  background-color: #407BFF;
+  background-color: #92E3A9;
   text-align: center;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   padding-top: 20px;
@@ -91,6 +111,10 @@ body {
   transition: 0.5s;
   cursor: pointer;
   padding: 10px;
+}
+
+.large {
+  height: max-content;
 }
 
 .div-button {
@@ -114,7 +138,7 @@ body {
 }
 
 .btn {
-  background-color: #407BFF;
+  background-color: #92E3A9;
   width: 31.9rem;
   height: 5.7rem;
   box-shadow: 5px 5px 0px #000000;
@@ -131,7 +155,7 @@ body {
 }
 
 .btn-home {
-  background-color: #407BFF;
+  background-color: #92E3A9;
   width: 31.9rem;
   height: 5.7rem;
   box-shadow: 5px 5px 0px #000000;
