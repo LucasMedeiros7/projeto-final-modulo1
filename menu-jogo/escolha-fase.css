@@ -7,6 +7,7 @@
 }
 
 body {
+  overflow: hidden;
   font-family: 'Press Start 2P', 'Roboto', sans-serif, Courier, monospace;
   height: 100vh;
   padding-top: 2.188rem;
@@ -35,10 +36,10 @@ body {
   align-items: center;
   flex-wrap: wrap;
   min-height: calc(100vh - 183px);
-  padding: 1rem 10.688rem;
+  padding: 1rem 10.5rem;
 }
 
-.main-container div{
+.main-container div {
   margin-top: 2.5rem;
 }
 
@@ -88,8 +89,7 @@ footer {
   padding: 1.563rem 0;
   border-top: 1px solid #000000;
   text-align: center;
-  max-height: 65px;
-  height: 90%;
+  margin-top: 2rem;
 }
 
 h3 {
@@ -101,10 +101,21 @@ h3 a {
   color: #2965F1;
 }
 
+@media (max-width:1450px) {
+  .main-container {
+    padding: 1rem 2rem;
+  }
+
+  footer {
+    padding: auto;
+    margin-top: 2.8rem;
+  }
+}
+
 @media screen and (max-width: 730px) {
 
   .header-container h1 {
-    padding: 1rem 0;
+    padding: 1rem 1rem;
   }
 
   .main-container {
@@ -119,7 +130,7 @@ h3 a {
   .boxmodel,
   .seletores {
     padding: 1rem;
-    margin: auto 0; 
+    margin: auto 0;
   }
 
   footer {
