@@ -113,9 +113,11 @@ h3 a {
 }
 
 @media screen and (max-width: 730px) {
-  body{
-    overflow: auto;
+
+  body {
+    overflow: scroll;
   }
+
   .header-container h1 {
     padding: 1rem 1rem;
   }
