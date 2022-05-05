@@ -102,6 +102,11 @@ h3 a {
 }
 
 @media (max-width:1450px) {
+
+  body {
+    overflow: scroll;
+  }
+  
   .main-container {
     padding: 1rem 2rem;
   }
